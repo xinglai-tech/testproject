@@ -1,7 +1,7 @@
 {
   "routes": [
     {
-      "route": "/.well-known/apple-developer-merchantid-domain-association", 
+      "route": "/.well-known/apple-developer-merchantid-domain-association/", 
       "headers": {
         "Content-Type": "text/plain; charset=utf-8"
       }
