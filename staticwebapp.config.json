@@ -1,5 +1,10 @@
 {
-  "mimeTypes": {
-    ".": "text/plain"
-  }
+  "routes": [
+    {
+      "route": "/.well-known/apple-developer-merchantid-domain-association",
+      "headers": {
+        "Content-Type": "text/plain"
+      }
+    }
+  ]
 }
