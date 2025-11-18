@@ -1,7 +1,7 @@
 {
   "routes": [
     {
-      "route": "/.well-known/apple-developer-merchantid-domain-association", // 替换为你的无后缀文件的实际路径
+      "route": "/.well-known/apple-developer-merchantid-domain-association", 
       "headers": {
         "Content-Type": "text/plain; charset=utf-8"
       }
