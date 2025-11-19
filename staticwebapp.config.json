@@ -1,13 +1,14 @@
 {
   "routes": [
     {
-      "route": "/.well-known/apple-developer-merchantid-domain-association", 
+      "route": "/.well-known/apple-developer-merchantid-domain-association",
       "headers": {
-        "Content-Type": "text/plain; charset=utf-8"
+        "Content-Type": "text/plain" 
       }
     }
   ],
-"navigationFallback": {
+  "navigationFallback": {
+    "rewrite": "/index.html",
     "exclude": ["/.well-known/apple-developer-merchantid-domain-association"]
   }
 }
