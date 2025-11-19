@@ -9,6 +9,6 @@
   ],
   "navigationFallback": {
     "rewrite": "/index.html",
-    "exclude": ["/.well-known/apple-developer-merchantid-domain-association"]
+    "exclude": ["/.well-known/*"]
   }
 }
