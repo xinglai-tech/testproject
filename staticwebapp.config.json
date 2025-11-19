@@ -1,5 +1,8 @@
 {
- "mimeTypes": {
-    ".": "text/plain"
-  }
+ "routes": [
+    {
+      "route": "/.well-known/apple-developer-merchantid-domain-association",
+      "rewrite": "/.well-known/apple-developer-merchantid-domain-association.txt"
+    }
+  ]
 }
