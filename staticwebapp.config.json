@@ -7,8 +7,7 @@
       }
     }
   ],
-
-  "mimeTypes": {
-    ".": "text/plain"
+"navigationFallback": {
+    "exclude": ["/.well-known/apple-developer-merchantid-domain-association"]
   }
 }
